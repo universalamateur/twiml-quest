@@ -14,6 +14,3 @@ def sms_ahoy_reply():
     resp.message("TwilioQuest rules")
 
     return str(resp)
-
-if __name__ == "__main__":
-    app.run(port=8767)
